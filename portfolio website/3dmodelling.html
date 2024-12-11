@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Modeling</title>
+  <link rel="stylesheet" href="3dmodelling.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>My Portfolio</h2>
+        <div class="sidebar-arrow">
+          <img src="spiderr.png" alt="sidebar-arrow">
+        <ul>
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="graphicdes.html">Graphic Designs</a></li>
+          <li><a href="3dmodelling.html">3D Modeling</a></li>
+          <br>
+          <li><a href="contacts.html"><h3>CONTACT NOW</h3></a></li>
+          <li><a href="A.layugan_finalwebsite1.html"><h3>HOME</h3></a></li>
+        </ul>
+      </div>
+      </div>
+
+
+  <div class="album-container">
+    <h1>3D Modeling</h1>
+    <div class="photo-gallery">
+      <div class="photo" onclick="openModal(this)">
+        <img src="LAYUGAN_AREALIGHT.jpg" alt="Photo 1">
+      </div>
+      <div class="photo" onclick="openModal(this)">
+        <img src="basic3d_LAYUGAN_POINTLIGHT.jpg" alt="Photo 2">
+      </div>
+      <div class="photo" onclick="openModal(this)">
+        <img src="basic3d_LAYUGAN_SPOTLIGHT.jpg" alt="Photo 3">
+      </div>
+      <div class="photo" onclick="openModal(this)">
+        <img src="basic3d_RENDERED_LAYUGAN.jpg" alt="Photo 4">
+      </div>
+      <div class="photo" onclick="openModal(this)">
+        <img src="isometric3d.jpg" alt="Photo 5">
+      </div>
+      <div class="photo" onclick="openModal(this)">
+        <img src="basic3d_glassmodel.jpg" alt="Photo 6">
+      </div>
+      <div class="photo" onclick="openModal(this)">
+        <img src="basic3d_curvesnurbs.jpg" alt="Photo 7">
+      </div>
+      <div class="photo" onclick="openModal(this)">
+        <img src="AKARI3D.jpg" alt="Photo 8">
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Zoomed Photo -->
+  <div id="photoModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="zoomedPhoto">
+  </div>
+
+  <script src="3d.js"></script>
+
+</body>
+</html>
+
